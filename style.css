@@ -1,0 +1,50 @@
+
+/* تنسيق الصفحة بالكامل والخلفية */
+body {
+    background-color: #121212; /* خلفية سوداء مريحة للعين */
+    color: #ffffff; /* كتابة باللون الأبيض */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+}
+
+/* تنسيق الهيدر (رأس الصفحة) */
+header {
+    margin-bottom: 50px;
+}
+
+header h1 {
+    color: #00adb5; /* لون فيروزي مميز للعنوان */
+    font-size: 2.5rem;
+}
+
+/* تنسيق كارت المشروع */
+.project-card {
+    background-color: #1e1e1e; /* خلفية رمادي غامق للكارت */
+    border: 2px solid #00adb5; /* إطار فيروزي يحدد الكارت */
+    border-radius: 12px; /* حواف دائرية ناعمة */
+    padding: 25px;
+    max-width: 350px;
+    margin: 0 auto; /* لتوسيط الكارت في نص الصفحة */
+    box-shadow: 0 4px 10px rgba(0, 173, 181, 0.2); /* ضل خفيف تحت الكارت */
+}
+
+/* تنسيق الزرار */
+button {
+    background-color: #00adb5;
+    color: #121212;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer; /* يخلي الماوس يقلب إيد لما تقف عليه */
+    transition: 0.3s; /* نعومة عند الضغط */
+}
+
+/* تأثير لما تقف بالماوس على الزرار */
+button:hover {
+    background-color: #eee;
+    transform: scale(1.05); /* يكبر شوية صغيرة */
+}
